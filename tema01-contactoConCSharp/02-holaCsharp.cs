@@ -1,5 +1,3 @@
-using System;
-
 class Saludo
 {
     static void Main ()
