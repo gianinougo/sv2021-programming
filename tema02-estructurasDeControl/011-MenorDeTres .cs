@@ -1,5 +1,5 @@
 //Tres numeros y decir el más bajo
-//Por Fran Guerrero
+//Por Fran (...)
 
 using System;
 
