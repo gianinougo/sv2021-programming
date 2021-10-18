@@ -2,5 +2,5 @@
 
 ## Tema 2
 
-Ejercicios del tema 3: Estructuras de control
+Ejercicios del tema 2: Estructuras de control
 
