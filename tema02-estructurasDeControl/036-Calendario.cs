@@ -6,9 +6,10 @@
  2 para el martes*/
  
 using System;
-public class T2s4r36
+
+class T2s4r36
 {
-    public static void Main()
+    static void Main()
     {
         int diasMes, diasInicio, numeroDiaSemana = 1;
     
