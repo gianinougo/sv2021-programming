@@ -148,27 +148,27 @@ public class T4s2
 
                     if(juego >= 0 && juego < contadorJuegos)
                     {
-                        Console.Write("Nombre: ", contadorJuegos + 1);
+                        Console.Write("Nombre {0}: ", contadorJuegos + 1);
                         string nuevoValor = Console.ReadLine();
                         if (nuevoValor != "")
                             coleccion[juego].titulo = nuevoValor;
 
-                        Console.Write("Plataforma: ", contadorJuegos + 1);
+                        Console.Write("Plataforma {0}: ", contadorJuegos + 1);
                         nuevoValor = Console.ReadLine();
                         if (nuevoValor != "")
                             coleccion[juego].plataforma = nuevoValor;
 
-                        Console.Write("Espacio(en mb): ", contadorJuegos + 1);
+                        Console.Write("Espacio(en mb) {0}: ", contadorJuegos + 1);
                         nuevoValor = Console.ReadLine();
                         if (nuevoValor != "")
                             coleccion[juego].espacio = Convert.ToInt32(nuevoValor);
 
-                        Console.Write("Mes de lanzamiento: ", contadorJuegos + 1);
+                        Console.Write("Mes de lanzamiento {0}: ", contadorJuegos + 1);
                         nuevoValor = Console.ReadLine();
                         if (nuevoValor != "")
                             coleccion[juego].fecha.mes = Convert.ToInt32(nuevoValor);
 
-                        Console.Write("Año de lanzamiento: ", contadorJuegos + 1);
+                        Console.Write("Año de lanzamiento {0}: ", contadorJuegos + 1);
                         nuevoValor = Console.ReadLine();
                         if (nuevoValor != "")
                             coleccion[juego].fecha.anyo = Convert.ToInt32(nuevoValor);
