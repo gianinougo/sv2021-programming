@@ -1,5 +1,3 @@
-//Author: Franco (...)
- 
 /* Reto 2.01: Máquina de cálculo
  * Máquina de cálculo
  * ProgramaMe Regional Online Valencia 2017-2018 - CEEDCV (Valencia)-Problema A
@@ -8,7 +6,7 @@
  * sobre una de las pioneras, Ada Lovelace.
  * Ada Lovelace, fue una matemática y escritora británica. Ada realizó
  * muchísimas aportaciones a la ciencia. Entre ellas destaca el trabajo
- * realizado sobre la “máquina analítica” de Charles Babbage,
+ * realizado sobre la "máquina analítica" de Charles Babbage,
  * una primitiva computadora mecánica.
  * Entre sus notas sobre dicha máquina se encuentra lo que se reconoce hoy como
  * el primer algoritmo destinado a ser procesado por una máquina. Por esto se
@@ -27,7 +25,7 @@
  * de:
  * Un primer número entero A que indicará el primer operando de la operación.
  * Separado por un espacio se encontrará un símbolo que indicará la operación
- * a realizar. Este podrá ser “+”, “-”, “*” y “/”. Tras ello, separado con un
+ * a realizar. Este podrá ser "+", "-", "*" y "/". Tras ello, separado con un
  * espacio un número entero B, que será el segundo operado.
  * -10000 <= A <= 10000
  * -10000 <= B <= 10000
@@ -54,55 +52,40 @@
  * ERROR
  * -8  */
 
+import java.util.*;
 
-using System;
+public class MaquinaDeCalculo {
+    public static void main(String[] args){
+        Scanner entrada = new Scanner(System.in);
+        int nCasos = entrada.nextInt();
 
-class MaquinaDeCalculo {
-    static void Main() {
+        for(int i = 0; i < nCasos; i++) {
 
-        ushort nCasos;
-        string txtOriginal;
-
-        nCasos = Convert.ToUInt16(Console.ReadLine());
-
-        for(uint i = 0; i < nCasos; i++) {
-
-            short num1, num2;
-            char operador;
-            
-            txtOriginal = Console.ReadLine();
-
-            string[] argumentos = txtOriginal.Split();
-            
-            num1 = Convert.ToInt16(argumentos[0]);
-            num2 = Convert.ToInt16(argumentos[2]);
-
-            operador = Convert.ToChar(argumentos[1]);
+            short num1 = entrada.nextShort();
+            char operador = entrada.next().charAt(0);
+            short num2 = entrada.nextShort();
 
             switch (operador) {
 
                 case '+':
-                    Console.WriteLine(num1 + num2);
+                    System.out.println(num1 + num2);
                     break;
 
                 case '-':
-                    Console.WriteLine(num1 - num2);
+                    System.out.println(num1 - num2);
                     break;
 
                 case '*':
-                    Console.WriteLine(num1 * num2);
+                    System.out.println(num1 * num2);
                     break;
 
                 case '/':
                     if (num2 != 0)
-                        Console.WriteLine(num1 / num2);
+                        System.out.println(num1 / num2);
                     else
-                        Console.WriteLine("ERROR");
+                        System.out.println("ERROR");
                     break;
-
             }
-
         }
-
     }
 }
