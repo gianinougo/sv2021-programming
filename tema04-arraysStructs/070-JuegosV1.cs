@@ -183,7 +183,7 @@ public class T4s2
                     Console.Write("Introduce la posición a borrar");
                     int posicionBorrar = Convert.ToInt32(Console.ReadLine()) - 1;
 
-                    for (int i = posicionBorrar; i < contadorJuegos; i++)
+                    for (int i = posicionBorrar; i < contadorJuegos - 1; i++)
                     {
                         coleccion[i] = coleccion[i+1];
                     }

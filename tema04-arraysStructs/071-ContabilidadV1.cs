@@ -290,7 +290,7 @@ class contabilidad71
                         string respuesta = Console.ReadLine();
                         if (respuesta == "si")
                         {
-                            for (int i = ficha; i < contador; i++)
+                            for (int i = ficha; i < contador-1; i++)
                             {
                                 gastos[i] = gastos[i + 1];
                             }

@@ -299,7 +299,7 @@ class Biblioteca
                         string decision = Console.ReadLine().ToLower();
                         if (decision == "s")
                         {
-                            for (int i = eliminar; i < cantidad; i++)
+                            for (int i = eliminar; i < cantidad-1; i++)
                             {
                                 datos[i] = datos[i + 1];
                             }
