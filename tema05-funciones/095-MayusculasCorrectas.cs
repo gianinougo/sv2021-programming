@@ -1,4 +1,4 @@
-﻿// Ejercicio recomendado 95
+// Ejercicio recomendado 95
 // Javier (...)
 
 /*
