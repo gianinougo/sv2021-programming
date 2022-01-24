@@ -37,12 +37,12 @@ class Pez
     }
     
     public Pez(string nuevoNombre, string nuevaEspecie,
-        byte nuevoX, byte nuevoY)
+        int nuevoX, int nuevoY)
     {
         nombre = nuevoNombre;
         especie = nuevaEspecie;
-        x = nuevoX;
-        y = nuevoY;
+        x = (byte) nuevoX;
+        y = (byte) nuevoY;
         imagenDerecha = "><=>";
         imagenIzquierda = "<=><";
         velocidad = 1;

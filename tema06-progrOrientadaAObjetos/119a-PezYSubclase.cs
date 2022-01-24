@@ -31,12 +31,12 @@ class Pez
     }
     
     public Pez(string nuevoNombre, string nuevaEspecie,
-        byte nuevoX, byte nuevoY)
+        int nuevoX, int nuevoY)
     {
         nombre = nuevoNombre;
         especie = nuevaEspecie;
-        x = nuevoX;
-        y = nuevoY;
+        x = (byte) nuevoX;
+        y = (byte) nuevoY;
     }
 
     ~Pez()
@@ -92,7 +92,7 @@ class PezEspada : Pez
         y = nuevoY;
     }
     
-    public void Nadar()
+    public new void Nadar()
     {
         Console.SetCursorPosition(x, y);
         Console.Write(">-->--");
