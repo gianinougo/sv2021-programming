@@ -1,5 +1,15 @@
-﻿// Ejercicio recomendado 115
+﻿// SpriteTexto + constructor
+// Versión 2: constructor vacío + constructor con 3 parámetros
+//         (para conservar el Main original)
+
+// Ejercicio recomendado 115
 // Javier (...)
+
+/*
+115. Crea una nueva versión de la clase "SpriteTexto" (ejercicio 103), con un 
+constructor que permita asignar valores a sus tres atributos. Adapta el 
+programa de prueba para que use ese constructor.
+*/
 
 using System;
 
