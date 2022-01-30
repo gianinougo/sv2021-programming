@@ -1,4 +1,11 @@
-﻿// Rocio (...)
+﻿// Recuadro + Inicializar
+// Rocio (...)
+
+/*
+111. Crea una nueva versión de la clase Recuadro (ejercicio 107f), que incluya 
+un método "Inicializar (x, y, ancho, alto, caracter)", que permita dar a la vez 
+los valores iniciales para todos los atributos. Pruébalo desde "Main".
+*/
 
 using System;
 
