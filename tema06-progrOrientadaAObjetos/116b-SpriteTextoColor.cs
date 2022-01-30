@@ -1,5 +1,18 @@
-﻿// Ejercicio recomendado 116
+﻿// SpriteTexto + SpriteTextoColor
+// Ejercicio recomendado 116
 // Javier (...)
+
+/*
+116. Crea una clase "SpriteTextoColor", que será un subtipo de "SpriteTexto", y 
+tendrá un nuevo atributo llamado "color", de tipo "string". En esta primera 
+versión, ese atributo podrá tener los valores "blanco" (que cambiará el color 
+del texto haciendo "Console.ForegroundColor = ConsoleColor.White;"), "cyan" 
+(que hará "Console.ForegroundColor = ConsoleColor.Cyan;") y "amarillo" (que 
+usará "Console.ForegroundColor = ConsoleColor.Yellow;"). Añade también un 
+constructor a esta clase, que permita fijar, además de los tres atributos 
+anteriores, el color. Pruébalo desde Main para dibujar, en las coordenadas (30, 
+8), un carácter "X" en color amarillo.
+*/
 
 using System;
 
