@@ -1,4 +1,12 @@
-﻿// Rocio (...), retoques menores por Nacho
+﻿// Recuadro + constructor
+
+// Rocio (...), retoques menores por Nacho
+
+/*
+114. Crea un segundo constructor en la clase Recuadro, que permita indicar sólo 
+la posición de inicio, y tome por defecto los valores: ancho = 40, alto = 10, 
+carácter = *. Pruébalo desde "Main".
+*/
 
 using System;
 
