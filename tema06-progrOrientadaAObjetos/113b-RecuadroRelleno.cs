@@ -1,4 +1,11 @@
-﻿// Rocio (...)
+﻿// Recuadro + RecuadroRelleno
+// Rocio (...)
+
+/*
+113. Crea una clase RecuadroRelleno, que herede de Recuadro, y cuyo método 
+"Dibujar" muestre un rectángulo relleno, en vez de un formado sólo por bordes. 
+Quizá eso te obligue a crear un constructor vacío en la clase Recuadro.
+*/
 
 using System;
 
