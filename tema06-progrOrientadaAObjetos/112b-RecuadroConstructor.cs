@@ -1,4 +1,11 @@
-﻿// Rocio (...)
+﻿// Recuadro + constructor
+// Rocio (...)
+
+/*
+112. Crea una nueva versión de la clase Recuadro, que, en vez del método 
+"Inicializar", incluya un constructor para dar valores iniciales. Pruébalo 
+desde "Main".
+*/
 
 using System;
 
