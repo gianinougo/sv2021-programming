@@ -1,4 +1,24 @@
-﻿// Ejercicio recomendado 116
+﻿// SpriteTexto + SpriteTextoColor + NaveEnemiga y NaveJugador + teclado
+
+/*
+117. Crea una clase "NaveEnemiga", que herede de "SpriteTextoColor", y cuyo 
+constructor prefije el color a cyan y el carácter a "W". Crea una clase 
+"NaveJugador", que herede de "SpriteTextoColor", y cuyo constructor prefije el 
+color a amarillo y el carácter a "A".  Crea un programa que permita mover la 
+nave del jugador cuando se pulsen las flechas del teclado, para lo que te 
+puedes ayudar del siguiente fragmento de código:
+
+ConsoleKeyInfo tecla = Console.ReadKey();
+
+if (tecla.Key == ConsoleKey.LeftArrow)
+    n.MoverIzquierda();
+else if (tecla.Key == ConsoleKey.RightArrow)
+    n.MoverDerecha();
+
+Quizá te interese borrar la pantalla con Console.Clear();
+*/
+
+// Ejercicio recomendado 117
 // Javier (...)
 
 using System;
