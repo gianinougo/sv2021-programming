@@ -1,4 +1,8 @@
-﻿/*
+﻿// Ejercicio 138
+// Propuesta creada por: Virginia
+// Segundo acercamiento: clases Documento y Libro
+
+/*
 137. Crea una Clase Documento, con atributos para el título, autor y número de 
 páginas. Debe tener un constructor que recibirá los tres atributos (los 
 parámetros deben tener el mismo nombre que los atributos, por lo que deberás 
@@ -13,9 +17,6 @@ habrá también una "ubicación" (...) se utilizará un método ToString, como
 alternativa más compacta que comprobar campo a campo; este ToString devolverá 
 "autor - titulo - ubicacion - páginas" para los documentos genéricos
 */
-
-// Propuesta creada por: Virginia
-// Primer acercamiento: sólo la clase Documento
 
 using System;
 
