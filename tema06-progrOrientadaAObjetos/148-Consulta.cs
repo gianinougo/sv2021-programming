@@ -163,7 +163,7 @@ class Consulta
                 codigoPaciente);
             int numMedico = ExistePersona(medicos, numMedicos, codigoMedico);
 
-            if (numPaciente >= 0 && numPaciente >= 0)
+            if (numPaciente >= 0 && numMedico >= 0)
             {
                 if (tipoVisita == "1")
                 {
