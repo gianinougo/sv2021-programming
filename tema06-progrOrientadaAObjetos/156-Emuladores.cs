@@ -77,9 +77,9 @@ using System;
 
 class Ordenador
 {
-    Procesador procesador;
-    Memoria memoria;
-    private string nombre;
+    protected Procesador procesador;
+    protected Memoria memoria;
+    protected string nombre;
 
     public Ordenador(string nombre, Procesador procesador, Memoria memoria)
     {
