@@ -67,7 +67,15 @@ class LibroElectronico : Libro
 
     public override bool Contiene(string texto)
     {
+        if (Formato.ToLower().Contains(texto.ToLower()) 
+        {
+            return true;
+        }
         return base.Contiene(texto);
+        
+        // Alternativa:
+        // return (Formato.ToLower().Contains(texto.ToLower()) 
+        //  || base.Contiene(texto));
     }
 }
 
